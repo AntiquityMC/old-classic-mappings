@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/a
+	FIELD a creativeTiles Ljava/util/List;

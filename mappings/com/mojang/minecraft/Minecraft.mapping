@@ -1,0 +1,25 @@
+CLASS com/mojang/minecraft/l com/mojang/minecraft/Minecraft
+	FIELD E running Z
+	FIELD I fullscreen Z
+	FIELD J timer Lcom/mojang/minecraft/d;
+	FIELD K emptyCursor Lorg/lwjgl/input/Cursor;
+	FIELD L resourceDownloadThread Lcom/mojang/minecraft/c;
+	FIELD O applet Lcom/mojang/minecraft/MinecraftApplet;
+	FIELD a gameMode Lcom/mojang/minecraft/d/b;
+	FIELD b width I
+	FIELD c height I
+	FIELD d level Lcom/mojang/minecraft/level/Level;
+	FIELD e levelRenderer Lcom/mojang/minecraft/b/g;
+	FIELD f player Lcom/mojang/minecraft/player/Player;
+	FIELD g particleEngine Lcom/mojang/minecraft/particle/a;
+	FIELD h session Lcom/mojang/minecraft/a;
+	FIELD i host Ljava/lang/String;
+	FIELD j parent Ljava/awt/Canvas;
+	FIELD k appletMode Z
+	FIELD l pause Z
+	FIELD m textures Lcom/mojang/minecraft/b/a;
+	FIELD n font Lcom/mojang/minecraft/e/l;
+	FIELD p loadingScreen Lcom/mojang/minecraft/i;
+	FIELD r levelSerializer Lcom/mojang/minecraft/level/a;
+	METHOD <init> (Ljava/awt/Canvas;Lcom/mojang/minecraft/MinecraftApplet;IIZ)V
+		ARG 1 applet

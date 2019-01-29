@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/e/q com/mojang/minecraft/gui/FileChooserGui
+	FIELD k fileChooser Ljavax/swing/JFileChooser;

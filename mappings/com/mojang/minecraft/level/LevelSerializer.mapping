@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/level/a com/mojang/minecraft/level/LevelSerializer
+	METHOD a writeToFile (Lcom/mojang/minecraft/level/Level;Ljava/io/File;)Z
+	METHOD a writeLevelToStream (Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
+	METHOD a save (Lcom/mojang/minecraft/level/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Z
+	METHOD a loadFromFile (Ljava/io/File;)Lcom/mojang/minecraft/level/Level;
+	METHOD a load (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;
+	METHOD a load (Ljava/lang/String;Ljava/lang/String;I)Lcom/mojang/minecraft/level/Level;

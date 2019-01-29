@@ -1,0 +1,2 @@
+CLASS a/a com/mojang/minecraft/util/MathHelper
+	METHOD c sqrt (F)F

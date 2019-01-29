@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/b/a com/mojang/minecraft/renderer/Textures
+	METHOD a loadTexture (Ljava/awt/image/BufferedImage;I)V

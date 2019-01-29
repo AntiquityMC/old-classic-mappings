@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/Entity
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;)V
+		ARG 1 level

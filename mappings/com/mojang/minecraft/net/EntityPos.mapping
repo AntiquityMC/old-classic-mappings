@@ -1,0 +1,8 @@
+CLASS com/mojang/minecraft/net/b com/mojang/minecraft/net/EntityPos
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	FIELD d yRot F
+	FIELD e xRot F
+	FIELD f hasRotation Z
+	FIELD g hasPosition Z

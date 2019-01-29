@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/b/i com/mojang/minecraft/renderer/FrustumBase
+	FIELD a m_Frustum [[F
+	FIELD b proj [F
+	FIELD c modl [F
+	FIELD d clip [F
+	METHOD a cubeInFrustum (FFFFFF)Z

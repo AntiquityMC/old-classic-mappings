@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/particle/a com/mojang/minecraft/particle/ParticleEngine
+	FIELD a particles [Ljava/util/List;
+	METHOD a tickParticles ()V
+		ARG 3 particle
+	METHOD a register (Lcom/mojang/minecraft/Entity;)V
+		ARG 1 entity

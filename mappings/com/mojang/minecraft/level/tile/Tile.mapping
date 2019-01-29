@@ -1,0 +1,65 @@
+CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Tile
+	FIELD A YELLOW_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD B CHARTREUSE_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD C GREEN_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD D SPRING_GREEN_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD E CYAN_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD F CAPRI_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD G ULTRAMARINE_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD H VIOLET_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD I PURPLE_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD J MAGENTA_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD K ROSE_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD L DARK_GRAY_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD M LIGHT_GRAY_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD N WHITE_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD O DANDELION Lcom/mojang/minecraft/level/tile/a;
+	FIELD P ROSE Lcom/mojang/minecraft/level/tile/a;
+	FIELD Q BROWN_MUSHROOM Lcom/mojang/minecraft/level/tile/a;
+	FIELD R RED_MUSHROOM Lcom/mojang/minecraft/level/tile/a;
+	FIELD S GOLD_BLOCK Lcom/mojang/minecraft/level/tile/a;
+	FIELD T IRON_BLOCK Lcom/mojang/minecraft/level/tile/a;
+	FIELD U DOUBLE_SLAB Lcom/mojang/minecraft/level/tile/a;
+	FIELD V SLAB Lcom/mojang/minecraft/level/tile/a;
+	FIELD W BRICKS Lcom/mojang/minecraft/level/tile/a;
+	FIELD X TNT Lcom/mojang/minecraft/level/tile/a;
+	FIELD Y BOOKSHELF Lcom/mojang/minecraft/level/tile/a;
+	FIELD Z MOSS_STONE Lcom/mojang/minecraft/level/tile/a;
+	FIELD a random Ljava/util/Random;
+	FIELD aa OBSIDIAN Lcom/mojang/minecraft/level/tile/a;
+	FIELD ab tex I
+	FIELD ac id I
+	FIELD b TILES [Lcom/mojang/minecraft/level/tile/a;
+	FIELD e ROCK Lcom/mojang/minecraft/level/tile/a;
+	FIELD f GRASS Lcom/mojang/minecraft/level/tile/a;
+	FIELD g DIRT Lcom/mojang/minecraft/level/tile/a;
+	FIELD h COBBLESTONE Lcom/mojang/minecraft/level/tile/a;
+	FIELD i PLANKS Lcom/mojang/minecraft/level/tile/a;
+	FIELD j SAPLING Lcom/mojang/minecraft/level/tile/a;
+	FIELD k BEDROCK Lcom/mojang/minecraft/level/tile/a;
+	FIELD l FLOWING_WATER Lcom/mojang/minecraft/level/tile/a;
+	FIELD m STILL_WATER Lcom/mojang/minecraft/level/tile/a;
+	FIELD n FLOWING_LAVA Lcom/mojang/minecraft/level/tile/a;
+	FIELD o STILL_LAVA Lcom/mojang/minecraft/level/tile/a;
+	FIELD p SAND Lcom/mojang/minecraft/level/tile/a;
+	FIELD q GRAVEL Lcom/mojang/minecraft/level/tile/a;
+	FIELD r GOLD_ORE Lcom/mojang/minecraft/level/tile/a;
+	FIELD s IRON_ORE Lcom/mojang/minecraft/level/tile/a;
+	FIELD t COAL_ORE Lcom/mojang/minecraft/level/tile/a;
+	FIELD u WOOD Lcom/mojang/minecraft/level/tile/a;
+	FIELD v LEAVES Lcom/mojang/minecraft/level/tile/a;
+	FIELD w SPONGE Lcom/mojang/minecraft/level/tile/a;
+	FIELD x GLASS Lcom/mojang/minecraft/level/tile/a;
+	FIELD y RED_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	FIELD z ORANGE_CLOTH Lcom/mojang/minecraft/level/tile/a;
+	METHOD <clinit> ()V
+		ARG 0 stone
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a destroy (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
+	METHOD a tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+	METHOD b blocksLight ()Z
+	METHOD b getTex (I)I
+	METHOD b getAABB (III)Lcom/mojang/minecraft/phys/AABB;
+	METHOD b renderFace (Lcom/mojang/minecraft/b/c;IIII)V
+	METHOD c isSolid ()Z

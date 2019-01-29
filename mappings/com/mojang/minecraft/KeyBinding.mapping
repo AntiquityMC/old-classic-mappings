@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/j com/mojang/minecraft/KeyBinding
+	FIELD a name Ljava/lang/String;
+	FIELD b value I

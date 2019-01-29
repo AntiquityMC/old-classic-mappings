@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/gen/LevelGen
+	FIELD a loadingScreen Lcom/mojang/minecraft/i;

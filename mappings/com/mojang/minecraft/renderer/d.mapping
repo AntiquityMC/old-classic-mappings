@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/b/d com/mojang/minecraft/renderer/d
+	FIELD a minecraft Lcom/mojang/minecraft/l;
+	FIELD h random Ljava/util/Random;

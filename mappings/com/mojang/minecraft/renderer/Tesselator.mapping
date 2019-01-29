@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/b/c com/mojang/minecraft/renderer/Tesselator
+	METHOD a color (I)V
+	METHOD b init ()V

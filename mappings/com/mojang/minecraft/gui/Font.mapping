@@ -1,0 +1,9 @@
+CLASS com/mojang/minecraft/e/l com/mojang/minecraft/gui/Font
+	FIELD a charWidths [I
+	FIELD b fontTexture I
+	FIELD c options Lcom/mojang/minecraft/k;
+	METHOD a width (Ljava/lang/String;)I
+		ARG 1 string
+	METHOD a drawShadow (Ljava/lang/String;III)V
+	METHOD a draw (Ljava/lang/String;IIIZ)V
+	METHOD b draw (Ljava/lang/String;III)V

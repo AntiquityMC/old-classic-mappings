@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/a/c com/mojang/minecraft/character/Vec3
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F

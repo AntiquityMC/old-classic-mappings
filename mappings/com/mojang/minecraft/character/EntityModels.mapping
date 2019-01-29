@@ -1,0 +1,9 @@
+CLASS com/mojang/minecraft/a/g com/mojang/minecraft/character/EntityModels
+	FIELD a humanoidModel Lcom/mojang/minecraft/a/k;
+	FIELD b humanoidArmorModel Lcom/mojang/minecraft/a/k;
+	FIELD c zombieModel Lcom/mojang/minecraft/a/e;
+	FIELD d skeletonModel Lcom/mojang/minecraft/a/h;
+	FIELD f pigModel Lcom/mojang/minecraft/a/o;
+	FIELD g sheepModel Lcom/mojang/minecraft/a/o;
+	FIELD h spiderModel Lcom/mojang/minecraft/a/m;
+	FIELD i sheepFurModel Lcom/mojang/minecraft/a/d;

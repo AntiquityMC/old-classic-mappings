@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/a com/mojang/minecraft/Session
+	FIELD a creativeTiles Ljava/util/List;
+	FIELD b playerName Ljava/lang/String;
+	FIELD c sessionId Ljava/lang/String;
+	FIELD d mppass Ljava/lang/String;
+	FIELD e hasPaid Z
