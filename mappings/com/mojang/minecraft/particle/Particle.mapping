@@ -1,2 +1,0 @@
-CLASS com/mojang/minecraft/particle/Particle com/mojang/minecraft/particle/Particle
-	METHOD getParticleTexture getParticleTexture ()I
