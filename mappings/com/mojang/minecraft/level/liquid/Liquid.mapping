@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/level/b/a com/mojang/minecraft/level/liquid/Liquid
+	FIELD a EMPTY Lcom/mojang/minecraft/level/b/a;
+	FIELD b WATER Lcom/mojang/minecraft/level/b/a;
+	FIELD c LAVA Lcom/mojang/minecraft/level/b/a;
+	FIELD d liquids [Lcom/mojang/minecraft/level/b/a;

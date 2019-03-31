@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/level/tile/i com/mojang/minecraft/level/tile/FlowingFluidTile
+CLASS com/mojang/minecraft/level/tile/i com/mojang/minecraft/level/tile/LiquidTile
 	FIELD al fluid Lcom/mojang/minecraft/level/b/a;
 	METHOD <init> (ILcom/mojang/minecraft/level/b/a;)V
 		ARG 1 id

@@ -63,3 +63,4 @@ CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Tile
 	METHOD b getAABB (III)Lcom/mojang/minecraft/phys/AABB;
 	METHOD b renderFace (Lcom/mojang/minecraft/b/c;IIII)V
 	METHOD c isSolid ()Z
+	METHOD d getLiquid ()Lcom/mojang/minecraft/level/b/a;
