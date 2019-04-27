@@ -29,6 +29,7 @@ CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Tile
 	FIELD aa OBSIDIAN Lcom/mojang/minecraft/level/tile/a;
 	FIELD ab tex I
 	FIELD ac id I
+	FIELD ad soundType Lcom/mojang/minecraft/level/tile/Tile$SoundType;
 	FIELD b TILES [Lcom/mojang/minecraft/level/tile/a;
 	FIELD e ROCK Lcom/mojang/minecraft/level/tile/a;
 	FIELD f GRASS Lcom/mojang/minecraft/level/tile/a;
