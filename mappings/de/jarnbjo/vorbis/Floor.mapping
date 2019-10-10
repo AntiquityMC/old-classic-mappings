@@ -1,0 +1,7 @@
+CLASS de/jarnbjo/vorbis/g de/jarnbjo/vorbis/Floor
+	FIELD a DB_STATIC_TABLE [F
+	METHOD a decodeFloor (Lde/jarnbjo/vorbis/b;Lde/jarnbjo/a/a/a;)Lde/jarnbjo/vorbis/g;
+		ARG 1 vorbis
+		ARG 2 source
+	METHOD a computeFloor ([F)V
+		ARG 1 vector

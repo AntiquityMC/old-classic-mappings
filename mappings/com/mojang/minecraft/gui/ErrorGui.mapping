@@ -1,3 +1,0 @@
-CLASS com/mojang/minecraft/e/j com/mojang/minecraft/gui/ErrorGui
-	FIELD g line1 Ljava/lang/String;
-	FIELD h line2 Ljava/lang/String;

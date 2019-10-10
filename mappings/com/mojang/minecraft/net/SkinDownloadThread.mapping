@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/net/d com/mojang/minecraft/net/SkinDownloadThread
+	FIELD a player Lcom/mojang/minecraft/net/NetworkPlayer;
+	METHOD <init> (Lcom/mojang/minecraft/net/NetworkPlayer;)V
+		ARG 1 player

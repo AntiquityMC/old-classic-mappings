@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/e/f com/mojang/minecraft/gui/OptionsScreen
+	FIELD g previousScreen Lcom/mojang/minecraft/e/o;
+	FIELD h title Ljava/lang/String;
+	FIELD j options Lcom/mojang/minecraft/k;
+	METHOD <init> (Lcom/mojang/minecraft/e/o;Lcom/mojang/minecraft/k;)V
+		ARG 1 previous
+		ARG 2 options

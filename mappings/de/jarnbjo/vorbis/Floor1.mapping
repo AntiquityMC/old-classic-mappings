@@ -1,0 +1,17 @@
+CLASS de/jarnbjo/vorbis/e de/jarnbjo/vorbis/Floor1
+	FIELD b partitionClassList [I
+	FIELD c maximumClass I
+	FIELD d multiplier I
+	FIELD e rangeBits I
+	FIELD f classDimensions [I
+	FIELD g classSubclasses [I
+	FIELD h classMasterbooks [I
+	FIELD i subclassBooks [[I
+	FIELD j xList [I
+	FIELD k yList [I
+	FIELD l lowNeighbours [I
+	FIELD m highNeighbours [I
+	FIELD n RANGES [I
+	METHOD <init> (Lde/jarnbjo/a/a/a;Lde/jarnbjo/vorbis/q;)V
+		ARG 1 source
+		ARG 2 header

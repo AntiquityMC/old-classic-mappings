@@ -1,9 +1,9 @@
 CLASS com/mojang/minecraft/l com/mojang/minecraft/Minecraft
-	FIELD E running Z
+	FIELD B options Lcom/mojang/minecraft/k;
+	FIELD F fpsString Ljava/lang/String;
 	FIELD I fullscreen Z
 	FIELD J timer Lcom/mojang/minecraft/d;
 	FIELD K emptyCursor Lorg/lwjgl/input/Cursor;
-	FIELD L resourceDownloadThread Lcom/mojang/minecraft/c;
 	FIELD O applet Lcom/mojang/minecraft/MinecraftApplet;
 	FIELD a gameMode Lcom/mojang/minecraft/d/b;
 	FIELD b width I
@@ -13,13 +13,17 @@ CLASS com/mojang/minecraft/l com/mojang/minecraft/Minecraft
 	FIELD f player Lcom/mojang/minecraft/player/Player;
 	FIELD g particleEngine Lcom/mojang/minecraft/particle/a;
 	FIELD h session Lcom/mojang/minecraft/a;
-	FIELD i host Ljava/lang/String;
-	FIELD j parent Ljava/awt/Canvas;
+	FIELD j canvas Ljava/awt/Canvas;
 	FIELD k appletMode Z
 	FIELD l pause Z
 	FIELD m textures Lcom/mojang/minecraft/b/a;
 	FIELD n font Lcom/mojang/minecraft/e/l;
-	FIELD p loadingScreen Lcom/mojang/minecraft/i;
-	FIELD r levelSerializer Lcom/mojang/minecraft/level/a;
+	FIELD o currentScreen Lcom/mojang/minecraft/e/o;
+	FIELD v robot Ljava/awt/Robot;
 	METHOD <init> (Ljava/awt/Canvas;Lcom/mojang/minecraft/MinecraftApplet;IIZ)V
-		ARG 1 applet
+		ARG 1 canvas
+		ARG 2 applet
+		ARG 3 width
+		ARG 4 height
+		ARG 5 fullscreen
+	METHOD a openScreen (Lcom/mojang/minecraft/e/o;)V

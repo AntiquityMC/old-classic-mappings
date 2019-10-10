@@ -1,0 +1,3 @@
+CLASS de/jarnbjo/a/a/a de/jarnbjo/util/io/BitInputStream
+	METHOD a getBit ()Z
+	METHOD a getInt (I)I

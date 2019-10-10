@@ -1,3 +1,6 @@
 CLASS com/mojang/minecraft/j com/mojang/minecraft/KeyBinding
 	FIELD a name Ljava/lang/String;
-	FIELD b value I
+	FIELD b key I
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 name
+		ARG 2 key

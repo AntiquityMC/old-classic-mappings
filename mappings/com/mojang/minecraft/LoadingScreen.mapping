@@ -1,4 +1,0 @@
-CLASS com/mojang/minecraft/i com/mojang/minecraft/LoadingScreen
-	FIELD b minecraft Lcom/mojang/minecraft/l;
-	METHOD a setTitle (Ljava/lang/String;)V
-	METHOD b setSubtitle (Ljava/lang/String;)V

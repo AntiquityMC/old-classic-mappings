@@ -1,2 +1,0 @@
-CLASS com/mojang/minecraft/e/b com/mojang/minecraft/gui/ChatGui
-	FIELD g message Ljava/lang/String;

@@ -24,19 +24,26 @@ CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Tile
 	FIELD W BRICKS Lcom/mojang/minecraft/level/tile/a;
 	FIELD X TNT Lcom/mojang/minecraft/level/tile/a;
 	FIELD Y BOOKSHELF Lcom/mojang/minecraft/level/tile/a;
-	FIELD Z MOSS_STONE Lcom/mojang/minecraft/level/tile/a;
+	FIELD Z MOSSY_STONE_BRICK Lcom/mojang/minecraft/level/tile/a;
 	FIELD a random Ljava/util/Random;
 	FIELD aa OBSIDIAN Lcom/mojang/minecraft/level/tile/a;
 	FIELD ab tex I
 	FIELD ac id I
 	FIELD ad soundType Lcom/mojang/minecraft/level/tile/Tile$SoundType;
+	FIELD ae x0 F
+	FIELD af y0 F
+	FIELD ag z0 F
+	FIELD ah x1 F
+	FIELD ai y1 F
+	FIELD aj z1 F
+	FIELD al tileId2Solid [Z
 	FIELD b TILES [Lcom/mojang/minecraft/level/tile/a;
 	FIELD e ROCK Lcom/mojang/minecraft/level/tile/a;
 	FIELD f GRASS Lcom/mojang/minecraft/level/tile/a;
 	FIELD g DIRT Lcom/mojang/minecraft/level/tile/a;
-	FIELD h COBBLESTONE Lcom/mojang/minecraft/level/tile/a;
+	FIELD h STONE_BRICK Lcom/mojang/minecraft/level/tile/a;
 	FIELD i PLANKS Lcom/mojang/minecraft/level/tile/a;
-	FIELD j SAPLING Lcom/mojang/minecraft/level/tile/a;
+	FIELD j BUSH Lcom/mojang/minecraft/level/tile/a;
 	FIELD k BEDROCK Lcom/mojang/minecraft/level/tile/a;
 	FIELD l FLOWING_WATER Lcom/mojang/minecraft/level/tile/a;
 	FIELD m STILL_WATER Lcom/mojang/minecraft/level/tile/a;
@@ -53,15 +60,89 @@ CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Tile
 	FIELD x GLASS Lcom/mojang/minecraft/level/tile/a;
 	FIELD y RED_CLOTH Lcom/mojang/minecraft/level/tile/a;
 	FIELD z ORANGE_CLOTH Lcom/mojang/minecraft/level/tile/a;
-	METHOD <clinit> ()V
-		ARG 0 stone
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a destroy (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isFullCube ()Z
+	METHOD a setSize (FFFFFF)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD a getTileAABB (III)Lcom/mojang/minecraft/phys/AABB;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a render (Lcom/mojang/minecraft/b/c;)V
+		ARG 1 t
+	METHOD a renderFace (Lcom/mojang/minecraft/b/c;IIII)V
+		ARG 1 t
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD a renderFace (Lcom/mojang/minecraft/b/c;IIIII)V
+		ARG 1 t
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+		ARG 6 faceTex
+	METHOD a getBrightness (Lcom/mojang/minecraft/level/Level;III)F
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a dropItems (Lcom/mojang/minecraft/level/Level;IIIF)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 chance
+	METHOD a shouldRenderFace (Lcom/mojang/minecraft/level/Level;IIII)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 layer
+	METHOD a render (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/b/c;)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 tesselator
+	METHOD a spawnParticles (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 particleEngine
 	METHOD a tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a setProperties (Lcom/mojang/minecraft/level/tile/Tile$SoundType;FFF)Lcom/mojang/minecraft/level/tile/a;
 	METHOD b blocksLight ()Z
-	METHOD b getTex (I)I
+	METHOD b getTexture (I)I
+		ARG 1 face
 	METHOD b getAABB (III)Lcom/mojang/minecraft/phys/AABB;
-	METHOD b renderFace (Lcom/mojang/minecraft/b/c;IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b renderFaceNoTexture (Lcom/mojang/minecraft/b/c;IIII)V
+		ARG 1 t
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
 	METHOD c isSolid ()Z
 	METHOD d getLiquid ()Lcom/mojang/minecraft/level/b/a;
+	METHOD e onSurvivalBreak (Lcom/mojang/minecraft/level/Level;III)V
+	METHOD f getDropCount ()I
+	METHOD g getDropId ()I

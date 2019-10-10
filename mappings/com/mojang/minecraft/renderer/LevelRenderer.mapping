@@ -1,5 +1,11 @@
 CLASS com/mojang/minecraft/b/g com/mojang/minecraft/renderer/LevelRenderer
 	FIELD a level Lcom/mojang/minecraft/level/Level;
 	FIELD b textures Lcom/mojang/minecraft/b/a;
-	METHOD a setDirty (IIIIII)V
-	METHOD a render (Lcom/mojang/minecraft/player/Player;I)I
+	FIELD g minecraft Lcom/mojang/minecraft/l;
+	FIELD k chunksWide I
+	FIELD l chunksHigh I
+	FIELD m chunksDeep I
+	METHOD <init> (Lcom/mojang/minecraft/l;Lcom/mojang/minecraft/b/a;)V
+		ARG 1 minecraft
+		ARG 2 textures
+	METHOD a render ()V

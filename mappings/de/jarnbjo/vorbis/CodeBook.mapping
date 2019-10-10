@@ -1,0 +1,10 @@
+CLASS de/jarnbjo/vorbis/m de/jarnbjo/vorbis/CodeBook
+	FIELD a huffmanRoot Lde/jarnbjo/a/a/b;
+	FIELD b dimensions I
+	FIELD c valueVector [[F
+	FIELD d entries I
+	FIELD e entryLengths [I
+	METHOD <init> (Lde/jarnbjo/a/a/a;)V
+		ARG 1 source
+	METHOD a createHuffmanTree ([I)Z
+		ARG 1 entryLengths

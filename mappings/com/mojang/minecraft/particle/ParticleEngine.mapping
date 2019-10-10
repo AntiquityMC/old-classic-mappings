@@ -1,6 +1,9 @@
 CLASS com/mojang/minecraft/particle/a com/mojang/minecraft/particle/ParticleEngine
-	FIELD a particles [Ljava/util/List;
-	METHOD a tickParticles ()V
-		ARG 3 particle
-	METHOD a register (Lcom/mojang/minecraft/Entity;)V
+	FIELD a particlesByTexture [Ljava/util/List;
+	FIELD b textures Lcom/mojang/minecraft/b/a;
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/b/a;)V
+		ARG 1 level
+		ARG 2 textures
+	METHOD a tick ()V
+	METHOD a add (Lcom/mojang/minecraft/Entity;)V
 		ARG 1 entity

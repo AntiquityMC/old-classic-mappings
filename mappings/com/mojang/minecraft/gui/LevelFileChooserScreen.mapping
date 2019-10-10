@@ -1,0 +1,8 @@
+CLASS com/mojang/minecraft/e/q com/mojang/minecraft/gui/LevelFileChooserScreen
+	FIELD g previousScreen Lcom/mojang/minecraft/e/o;
+	FIELD h title Ljava/lang/String;
+	FIELD k fileChooser Ljavax/swing/JFileChooser;
+	FIELD m selectedFile Ljava/io/File;
+	FIELD q status Ljava/lang/String;
+	METHOD <init> (Lcom/mojang/minecraft/e/o;)V
+		ARG 1 previous

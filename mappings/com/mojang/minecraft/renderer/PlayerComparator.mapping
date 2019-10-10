@@ -1,4 +1,0 @@
-CLASS com/mojang/minecraft/b/b com/mojang/minecraft/renderer/PlayerComparator
-	FIELD a player Lcom/mojang/minecraft/player/Player;
-	METHOD <init> (Lcom/mojang/minecraft/player/Player;)V
-		ARG 1 player

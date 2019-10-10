@@ -1,0 +1,17 @@
+CLASS de/jarnbjo/vorbis/h de/jarnbjo/vorbis/Util
+	METHOD a ilog (I)I
+		ARG 0 x
+	METHOD a renderLine (IIII[F)V
+		ARG 0 x0
+		ARG 1 y0
+		ARG 2 x1
+		ARG 3 y1
+		ARG 4 v
+	METHOD a lowNeighbour ([II)I
+		ARG 0 v
+		ARG 1 x
+	METHOD b float32unpack (I)F
+		ARG 0 x
+	METHOD b highNeighbour ([II)I
+		ARG 0 v
+		ARG 1 x

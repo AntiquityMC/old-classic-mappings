@@ -4,3 +4,9 @@ CLASS com/mojang/minecraft/b/i com/mojang/minecraft/renderer/FrustumBase
 	FIELD c modl [F
 	FIELD d clip [F
 	METHOD a cubeInFrustum (FFFFFF)Z
+		ARG 1 x1
+		ARG 2 y1
+		ARG 3 z1
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2

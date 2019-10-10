@@ -1,0 +1,9 @@
+CLASS com/mojang/minecraft/net/NetworkPlayer
+	METHOD <init> (Lcom/mojang/minecraft/l;ILjava/lang/String;IIIFF)V
+		ARG 1 minecraft
+		ARG 3 name
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 yRot
+		ARG 8 xRot

@@ -1,0 +1,16 @@
+CLASS com/mojang/minecraft/b/j com/mojang/minecraft/renderer/ChunkRenderer
+	FIELD a updates I
+	FIELD d level Lcom/mojang/minecraft/level/Level;
+	FIELD f tesselator Lcom/mojang/minecraft/b/c;
+	FIELD g x I
+	FIELD h y I
+	FIELD i z I
+	FIELD j width I
+	FIELD k height I
+	FIELD l depth I
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;IIIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a render ()V

@@ -1,2 +1,0 @@
-CLASS com/mojang/minecraft/a/b com/mojang/minecraft/character/EntityModel
-	METHOD a render (FFFFFF)V

@@ -1,0 +1,24 @@
+CLASS de/jarnbjo/vorbis/f de/jarnbjo/vorbis/AudioPacket
+	FIELD a modeNumber I
+	FIELD b mode Lde/jarnbjo/vorbis/j;
+	FIELD c mapping Lde/jarnbjo/vorbis/i;
+	FIELD d n I
+	FIELD e blockFlag Z
+	FIELD f previousWindowFlag Z
+	FIELD g nextWindowFlag Z
+	FIELD i leftWindowStart I
+	FIELD l rightWindowStart I
+	FIELD n window [F
+	FIELD o pcm [[F
+	FIELD p pcmInt [[I
+	FIELD q channelFloors [Lde/jarnbjo/vorbis/g;
+	FIELD r noResidues [Z
+	FIELD s windows [[F
+	METHOD <init> (Lde/jarnbjo/vorbis/b;Lde/jarnbjo/a/a/a;)V
+		ARG 1 vorbis
+		ARG 2 source
+	METHOD a getNumberOfSamples ()I
+	METHOD a getPcm (Lde/jarnbjo/vorbis/f;[B)V
+		ARG 1 previousPacket
+		ARG 2 buffer
+	METHOD b getComputedWindow ()[F

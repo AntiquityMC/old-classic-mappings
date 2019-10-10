@@ -1,5 +1,9 @@
 CLASS com/mojang/minecraft/b/e com/mojang/minecraft/renderer/Frustum
-	FIELD e frustum Lcom/mojang/minecraft/b/e;
+	FIELD e instance Lcom/mojang/minecraft/b/e;
 	FIELD f _proj Ljava/nio/FloatBuffer;
 	FIELD g _modl Ljava/nio/FloatBuffer;
 	FIELD h _clip Ljava/nio/FloatBuffer;
+	METHOD a calculateFrustum ()Lcom/mojang/minecraft/b/i;
+	METHOD a normalizePlane ([[FI)V
+		ARG 0 frustum
+		ARG 1 side

@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/level/Level
+	METHOD isLightBlocker (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

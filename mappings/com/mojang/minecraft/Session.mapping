@@ -4,3 +4,6 @@ CLASS com/mojang/minecraft/a com/mojang/minecraft/Session
 	FIELD c sessionId Ljava/lang/String;
 	FIELD d mppass Ljava/lang/String;
 	FIELD e hasPaid Z
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 playerName
+		ARG 2 id

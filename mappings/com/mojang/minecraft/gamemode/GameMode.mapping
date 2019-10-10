@@ -1,0 +1,10 @@
+CLASS com/mojang/minecraft/d/b com/mojang/minecraft/gamemode/GameMode
+	FIELD a minecraft Lcom/mojang/minecraft/l;
+	METHOD <init> (Lcom/mojang/minecraft/l;)V
+		ARG 1 minecraft
+	METHOD a init (Lcom/mojang/minecraft/level/Level;)V
+		ARG 1 level
+	METHOD b (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

@@ -1,0 +1,3 @@
+CLASS de/jarnbjo/vorbis/d de/jarnbjo/vorbis/IdentificationHeader
+	METHOD <init> (Lde/jarnbjo/a/a/a;)V
+		ARG 1 source

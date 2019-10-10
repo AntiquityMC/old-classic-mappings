@@ -1,6 +1,0 @@
-CLASS com/mojang/minecraft/e/o com/mojang/minecraft/gui/Gui
-	FIELD a minecraft Lcom/mojang/minecraft/l;
-	FIELD b width I
-	FIELD c height I
-	FIELD d buttons Ljava/util/List;
-	FIELD f font Lcom/mojang/minecraft/e/l;

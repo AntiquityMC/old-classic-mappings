@@ -1,0 +1,5 @@
+CLASS de/jarnbjo/vorbis/c de/jarnbjo/vorbis/Floor0
+	FIELD b bookList [I
+	METHOD <init> (Lde/jarnbjo/a/a/a;Lde/jarnbjo/vorbis/q;)V
+		ARG 1 source
+		ARG 2 header

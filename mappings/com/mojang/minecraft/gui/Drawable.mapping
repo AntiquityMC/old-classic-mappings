@@ -1,0 +1,24 @@
+CLASS com/mojang/minecraft/e/h com/mojang/minecraft/gui/Drawable
+	FIELD i z F
+	METHOD a fill (IIIII)V
+		ARG 0 left
+		ARG 1 top
+		ARG 2 right
+		ARG 3 bottom
+		ARG 4 color
+	METHOD a fillGradient (IIIIII)V
+		ARG 0 left
+		ARG 1 top
+		ARG 2 right
+		ARG 3 bottom
+		ARG 4 color1
+		ARG 5 color2
+	METHOD a drawCenteredStringWithShadow (Lcom/mojang/minecraft/e/l;Ljava/lang/String;III)V
+	METHOD b blit (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 width
+		ARG 4 height
+		ARG 5 u
+		ARG 6 v
+	METHOD b drawString (Lcom/mojang/minecraft/e/l;Ljava/lang/String;III)V

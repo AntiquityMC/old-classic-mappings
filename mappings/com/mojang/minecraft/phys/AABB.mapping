@@ -1,0 +1,12 @@
+CLASS com/mojang/minecraft/phys/AABB
+	METHOD <init> (FFFFFF)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD intersects (Lcom/mojang/minecraft/phys/AABB;)Z
+		ARG 1 aabb
+	METHOD intersectsInner (Lcom/mojang/minecraft/phys/AABB;)Z
+		ARG 1 aabb

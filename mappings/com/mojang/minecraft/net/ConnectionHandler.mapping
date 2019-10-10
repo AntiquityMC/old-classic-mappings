@@ -1,0 +1,8 @@
+CLASS com/mojang/minecraft/net/c com/mojang/minecraft/net/ConnectionHandler
+	FIELD b connection Lcom/mojang/a/a;
+	FIELD c minecraft Lcom/mojang/minecraft/l;
+	FIELD f players Ljava/util/HashMap;
+	METHOD a isConnected ()Z
+	METHOD a onException (Ljava/lang/Exception;)V
+		ARG 1 exception
+	METHOD b getPlayerNames ()Ljava/util/List;

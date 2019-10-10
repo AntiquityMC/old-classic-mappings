@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/level/tile/b com/mojang/minecraft/level/tile/BaseLeavesTile
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 tex

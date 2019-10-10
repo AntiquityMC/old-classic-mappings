@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/e/g com/mojang/minecraft/gui/GenerateLevelScreen
+	FIELD g previousScreen Lcom/mojang/minecraft/e/o;
+	METHOD <init> (Lcom/mojang/minecraft/e/o;)V
+		ARG 1 previous

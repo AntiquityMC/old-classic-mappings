@@ -1,2 +1,0 @@
-CLASS com/mojang/minecraft/b/f com/mojang/minecraft/renderer/PlayerComparator2
-	FIELD a player Lcom/mojang/minecraft/player/Player;

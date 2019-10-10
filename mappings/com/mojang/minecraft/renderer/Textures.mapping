@@ -1,2 +1,5 @@
 CLASS com/mojang/minecraft/b/a com/mojang/minecraft/renderer/Textures
-	METHOD a loadTexture (Ljava/awt/image/BufferedImage;I)V
+	FIELD a idMap Ljava/util/HashMap;
+	FIELD c ib Ljava/nio/IntBuffer;
+	METHOD a loadTexture (Ljava/lang/String;)I
+		ARG 1 resourceName

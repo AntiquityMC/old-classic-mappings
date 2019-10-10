@@ -1,1 +1,39 @@
 CLASS com/mojang/minecraft/k com/mojang/minecraft/Options
+	FIELD a music Z
+	FIELD b sounds Z
+	FIELD c invertMouse Z
+	FIELD d showFps Z
+	FIELD e viewDistance I
+	FIELD f viewBobbing Z
+	FIELD g anaglyph Z
+	FIELD h limitFramerate Z
+	FIELD i keyForward Lcom/mojang/minecraft/j;
+	FIELD j keyLeft Lcom/mojang/minecraft/j;
+	FIELD k keyBack Lcom/mojang/minecraft/j;
+	FIELD l keyRight Lcom/mojang/minecraft/j;
+	FIELD m keyJump Lcom/mojang/minecraft/j;
+	FIELD n keyBuild Lcom/mojang/minecraft/j;
+	FIELD o keyChat Lcom/mojang/minecraft/j;
+	FIELD p keyToggleFog Lcom/mojang/minecraft/j;
+	FIELD q keySaveLocation Lcom/mojang/minecraft/j;
+	FIELD r keyLoadLocation Lcom/mojang/minecraft/j;
+	FIELD s keyBindings [Lcom/mojang/minecraft/j;
+	FIELD t booleanOptionCount I
+	FIELD u VIEW_DISTANCE_NAMES [Ljava/lang/String;
+	FIELD v minecraft Lcom/mojang/minecraft/l;
+	FIELD w file Ljava/io/File;
+	METHOD <init> (Lcom/mojang/minecraft/l;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 gameDirectory
+	METHOD a load ()V
+	METHOD a getKeyBindingString (I)Ljava/lang/String;
+		ARG 1 keyBinding
+	METHOD a updateKey (II)V
+		ARG 1 keyBinding
+		ARG 2 key
+	METHOD b save ()V
+	METHOD b getOptionString (I)Ljava/lang/String;
+		ARG 1 option
+	METHOD b cycleOption (II)V
+		ARG 1 option
+		ARG 2 amount
